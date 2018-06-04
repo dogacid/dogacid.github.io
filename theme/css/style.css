@@ -1,241 +1,341 @@
+/* Global */
+
 body {
-    padding-top: 70px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fcfcfc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
 }
 
-#sidebar .list-group, #sidebar .list-group-item {
-    background-color: transparent;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.1;
 }
 
-/* for list-groups nested within a list-group-item, reset the bottom margin */
-.list-group-item > .list-group {
-    margin-bottom: 0px;
+h1 {
+  font-weight: bold;
+  font-size: 23pt;
 }
 
-/* for list-group-items nested within a list-group-item, reset the bottom
-   padding of the last item, b/c the containing item has paddimg already
- */
-.list-group-item .list-group-item:last-child {
-    padding-bottom: 0px;
+h2 {
+  font-weight: bold;
+  font-size: 20pt;
 }
 
-.list-group-item {
-    border: none;
+h3 {
+  font-weight: bold;
+  font-size: 16pt;
 }
 
-.tag-0 {
-    font-size: 16pt;
+h4 {
+  font-size: 16pt;
 }
 
-.tag-1 {
-    font-size: 13pt;
+a {
+  text-decoration: none;
 }
 
-.tag-2 {
-    font-size: 10pt;
+a img:hover {
+  opacity: 0.85;
 }
 
-.tag-3 {
-    font-size: 8pt;
+article {
+  font-size: 13pt;
+  padding-top: 0;
 }
 
-.tag-4 {
-    font-size: 6pt;
+abbr[title] {
+  text-decoration: underline;
 }
 
-#aboutme {
-    padding-top: 0px;
-    padding-bottom: 5px;
-    -ms-word-break: normal;
-    word-break: normal;
+::selection {
+  color: white;
+  background: #81C784;
 }
 
-#sidebar {
-    padding-top: 0px;
-    -ms-word-break: break-all;
-    word-break: break-all;
-    word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-}
-
-#sidebar a {
-    color: inherit;
-}
-
-.icon-label {
-    margin-left: 10px;
-}
-
-/* Example for how to control spacing between icon and label in specific
-   lists in the sidebar. To change, override in your CUSTOM_CSS           */
-#sidebar #social i {
-    margin-right: 3px;
-}
-
-a, a:hover {
-    color: inherit;
-}
-
-.entry-content a {
-    text-decoration: none;
-    border-bottom: 1px dotted;
-}
-
-.entry-content a:hover {
-    text-decoration: none;
-    border-bottom: 1px solid;
-}
-
-.entry-content img {
-    max-width: 100%;
-    height: auto;
-}
-
-.entry-content figcaption, .caption {
-    font-size: small;
-    margin-bottom: 2px;
-}
-
-.summary img {
-    max-width: 100%;
-    height: auto;
+::-moz-selection {
+  color: white;
+  background: #81C784;
 }
 
 
-.floatright, .align-right {
-    float: right;
+
+/* Classes */
+
+.col-main {
+  margin: auto;
+  width: 100%;
+  max-width: 900px;
 }
 
-.floatleft, .align-left {
-    float: left;
+.adjust-width {
+  margin: 0 -16px;
 }
 
-.floatcenter, .align-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.post-info {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13pt;
 }
 
-figure.floatright, .align-right {
-    margin-left: 4px;
+.caption {
+  text-align: center;
+  font-size: 10pt;
+  font-style: italic;
+  color: grey;
+  margin-bottom: 30px;
 }
 
-figure.floatleft, .align-left {
-    margin-right: 4px;
+.headerimage-article {
+  margin: auto;
+  max-width: 1100px;
 }
 
-figure.floatcenter, .align-center {
-    margin-bottom: 11px;
+.headerimage-card {
+  margin: 0 -16px;
 }
 
-.highlighttable pre {
-    /* Removes bootstrap default margin-bottom */
-    margin-bottom: 0px;
+.headerimage-card > img {
+  max-width: 100%;
 }
 
-.highlighttable {
-    /* Adds them margin-bottom to highlightable instead of <pre> */
-    margin-bottom: 11px;
+ul.social {
+  white-space: nowrap;
 }
 
-.highlighttable {
-    width: 100%;
+ul.social li {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 20pt;
 }
 
-#categories ul, #tags ul {
-    list-style: none;
-    padding: 0;
-    margin-left: 0;
+ul.social li a:hover {
+  opacity: 0.85;
 }
 
-.docutils.footnote td.label {
-    display: table-cell;
-    font-size: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-    color: inherit;
-    text-align: inherit;
-    white-space: inherit;
-    border-radius: inherit;
+
+
+/* Ids */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  max-width: 1100px;
 }
 
-.categories-timestamp {
-    color: #AAAAAA;
-    font-size: 0.9em;
-    margin-right: 10px;
+#header-logo {
+  width: 60px;
+  min-width: 60px; /* no resizing! */
+  height: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 20pt;
+  font-weight: bold;
 }
 
-.tagcloud li {
-    padding: 0px;
+#header-logo:hover {
+  opacity: 0.85;
 }
 
-#banner {
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: scroll;
-    background-size: cover;
-    background-color: #C4C4C4;
-    margin: 0 0 20px;
-    padding: 70px 0; /*controls padding around inner text*/
-    position: relative;
+#header-menu {
+  font-size: 14pt;
+  text-align: right;
 }
 
-#banner .copy {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
-    display: inline;
-    float: left;
-    max-width: 600px;
-    padding: 20px;
-    position: relative;
-    z-index: 1;
+#header-menu ul {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
 }
 
-#banner h1 {
-    color: #fff;
-    font-family: "HelveticaNeue-CondensedBold","Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","HelveticaNeue-BoldCondensed","Helvetica Neue BoldCondensed","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 60px;
-    font-stretch: condensed;
-    font-weight: 700;
-    line-height: 0.9;
+#header-menu ul li {
+  text-transform: uppercase;
+  list-style: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  white-space:nowrap;
+}
+
+#intro {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#intro-description {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 11pt;
+}
+
+#intro img.avatar {
+  width: 150px;
+  max-width: 60%;
+  margin: 0 50px;
+  vertical-align: middle;
+}
+
+#footer {
+  width: 100%;
+  height: auto;
+  font-size: 11pt;
+}
+
+#footer-copyright {
+  background-color: #0F0F0F;
+}
+
+#listing article {
+  padding: 30px;
+}
+
+#content {
+  line-height: 1.6;
+}
+
+#content h2, #content h3, #content h4 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+#content a {
+  color: #4CAF50;
+}
+
+#content a:hover {
+  text-decoration: underline;
+}
+
+#content blockquote {
+  border-left: 5px solid;
+  border-color: #ccc;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+#content div.highlight {
+  max-height: 600px;
+  font-size: 11pt;
+  background-color:#f1f1f1;
+  overflow: auto;
+  margin: 3rem 0;
+}
+
+#content pre {
+  margin: 0;
+  padding: 1rem;
+}
+
+#content code {
+  background-color:#f1f1f1;
+}
+
+#content ul, #content ol {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+#content p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+#content p > img {
+  max-width: 100%;
+  display: block;
+  margin: 3rem auto 3rem auto;
+}
+
+#content p.content-highlight {
+  color: #4CAF50;
+  font-size: 18pt;
+  text-align: right;
+  font-style: italic;
+  width: 50%;
+  float: right;
+}
+
+#content hr {
+  margin: 3rem auto 3rem auto;
+  border-color: #ccc;
+  border-width: 1px;
+}
+
+#author-block {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#author-info {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#author-name {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#author-story {
+  font-size: 11pt;
+  font-style: italic;
+}
+
+#share a {
+  min-width: 50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+#share a span {
+  display: none;
+}
+
+
+
+/* Screen > 530px */
+
+@media screen and (min-width: 530px) {
+
+  h1 {
+    font-size: 26pt;
+  }
+
+  article {
+    font-size: 14pt;
+  }
+
+  .adjust-width {
     margin: 0;
-    text-transform: uppercase;
-}
-#banner .intro {
-    color: #fff;
-    font-size: 21px;
-    line-height: 1.33;
-    opacity: 0.75;
-}
-#banner .btn, #banner .intro {
-    margin-left: 4px;
-}
+  }
 
-/* Solutions for mobile and small screens  */
-@media (max-width: 650px) {
-    #banner h1{
-       font-size: 30px; /* !important;*/
-    }
-    #banner .intro{
-        font-size: 16px;
-    }
-}
+  #header-menu ul {
+    flex-direction: row;
+    margin-top: 18px;
+  }
 
-:target:before {
-  content:"";
-  display:block;
-  height:50px;
-  /* fixed header height*/
+  #content p.content-highlight {
+    font-size: 24pt;
+  }
 
-  margin:-50px 0 0;
-  /* negative fixed header height */
-}
-
-.gap-right {
-    margin-right: 10px;
-}
-
-.gap-left {
-  margin-left: 10px;
+  #share a span {
+    display: inline;
+  }
 }
