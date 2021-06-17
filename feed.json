@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://marcgalbraith.com/the-agile-word.html",
+            "url": "https://marcgalbraith.com/the-agile-word.html",
+            "title": "The Agile Word",
+            "summary": "To be honest this google books chart bothers me, since the 1990s, including the word agile in books has been increasing. Some argue this is great news, a sign that it is popular and resonating. Or that it’s been a boon for self-publishing books with&hellip;",
+            "content_html": "<p>To be honest this google books chart bothers me, since the 1990s, including the word agile in books has been increasing. Some argue this is great news, a sign that it is popular and resonating. Or that it’s been a boon for self-publishing books with the rise of the Internet.</p>\n<p>I’d argue this is a problem, a sign that the word is misunderstood and often redefined, leading to a lack of clarity. If my argument is true and you decide to make a significant organisational change based on this word. How successful do you think that would that be? #leadership #change #agile</p>\n<p><figure class=\"post__image\"><img loading=\"lazy\" src=\"file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/1600734391527.jpeg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-xs.jpeg 300w ,file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-sm.jpeg 480w ,file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-md.jpeg 768w ,file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-lg.jpeg 1024w ,file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-xl.jpeg 1360w ,file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-2xl.jpeg 1600w\"  alt=\"Google Word Search\" width=\"1536\" height=\"677\" /></figure></p>\n",
+            "author": {
+                "name": "Marc Galbraith"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-09-17T15:12:00+10:00",
+            "date_modified": "2021-06-17T15:15:13+10:00"
+        },
+        {
             "id": "https://marcgalbraith.com/dynamics-of-change.html",
             "url": "https://marcgalbraith.com/dynamics-of-change.html",
             "title": "Dynamics of Change",

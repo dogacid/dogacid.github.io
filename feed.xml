@@ -3,12 +3,35 @@
     <title>Marc Galbraith</title>
     <link href="https://marcgalbraith.com/feed.xml" rel="self" />
     <link href="https://marcgalbraith.com" />
-    <updated>2021-06-17T11:49:12+10:00</updated>
+    <updated>2021-06-17T15:15:13+10:00</updated>
     <author>
         <name>Marc Galbraith</name>
     </author>
     <id>https://marcgalbraith.com</id>
 
+    <entry>
+        <title>The Agile Word</title>
+        <author>
+            <name>Marc Galbraith</name>
+        </author>
+        <link href="https://marcgalbraith.com/the-agile-word.html"/>
+        <id>https://marcgalbraith.com/the-agile-word.html</id>
+
+        <updated>2021-06-17T15:15:13+10:00</updated>
+            <summary>
+                <![CDATA[
+                    To be honest this google books chart bothers me, since the 1990s, including the word agile in books has been increasing. Some argue this is great news, a sign that it is popular and resonating. Or that it’s been a boon for self-publishing books with&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>To be honest this google books chart bothers me, since the 1990s, including the word agile in books has been increasing. Some argue this is great news, a sign that it is popular and resonating. Or that it’s been a boon for self-publishing books with the rise of the Internet.</p>
+<p>I’d argue this is a problem, a sign that the word is misunderstood and often redefined, leading to a lack of clarity. If my argument is true and you decide to make a significant organisational change based on this word. How successful do you think that would that be? #leadership #change #agile</p>
+<p><figure class="post__image"><img loading="lazy" src="file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/1600734391527.jpeg" sizes="(max-width: 48em) 100vw, 768px" srcset="file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-xs.jpeg 300w ,file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-sm.jpeg 480w ,file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-md.jpeg 768w ,file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-lg.jpeg 1024w ,file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-xl.jpeg 1360w ,file:///Users/marc/Documents/Publii/sites/marc-galbraith/input/media/posts/temp/responsive/1600734391527-2xl.jpeg 1600w"  alt="Google Word Search" width="1536" height="677" /></figure></p>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Dynamics of Change</title>
         <author>
