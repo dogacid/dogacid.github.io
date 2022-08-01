@@ -3,7 +3,7 @@
     <title>Byte Marc</title>
     <link href="https://marcgalbraith.com/feed.xml" rel="self" />
     <link href="https://marcgalbraith.com" />
-    <updated>2022-07-30T20:15:44+10:00</updated>
+    <updated>2022-08-02T08:54:04+10:00</updated>
     <author>
         <name>Marc Galbraith</name>
     </author>
@@ -16,8 +16,10 @@
         </author>
         <link href="https://marcgalbraith.com/teams.html"/>
         <id>https://marcgalbraith.com/teams.html</id>
+            <category term="Systems Leadership"/>
+            <category term="Organisations"/>
 
-        <updated>2022-07-30T20:15:44+10:00</updated>
+        <updated>2022-08-02T08:54:04+10:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://marcgalbraith.com/media/posts/4/randy-fath-ymf4_9Y9S_A-unsplash.jpg" alt="" />
