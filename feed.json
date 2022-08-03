@@ -10,6 +10,22 @@
     },
     "items": [
         {
+            "id": "https://marcgalbraith.com/first-day-back-into-it.html",
+            "url": "https://marcgalbraith.com/first-day-back-into-it.html",
+            "title": "First day back into it",
+            "summary": "I’ve reached out to some colleagues I know that are still coding. Why I did this? Obtain the quickest possible insight into what skills are considered valuable. There are stacks of sites that talk about the top ten this and that, most likely looking for&hellip;",
+            "content_html": "<p>I’ve reached out to some colleagues I know that are still coding. Why I did this? Obtain the quickest possible insight into what skills are considered valuable. There are stacks of sites that talk about the top ten this and that, most likely looking for clicks.</p>\n<p>The common thread in this research was <strong>React</strong>.</p>\n<p>Although I must admit I have a strong interest in <strong>Python</strong> and <strong>Data Science</strong> related things, but I figure I’ll come to that down the road.</p>\n<p><strong>React</strong> comes as no surprise, Lexicon is heavily involved as many other Australian consultancies in this area. Clients are generally going through an upgrade to <strong>React</strong> cycle.</p>\n<p>There are two courses I am aware of:</p>\n<ol>\n<li><a href=\"https://www.udemy.com/course/react-the-complete-guide-incl-redux/\">Udemdy coursework</a></li>\n<li><a href=\"https://epicreact.dev\">Epic React course</a></li>\n</ol>\n<p>I’ve chosen to delay doing them just yet and carefully read through <a href=\"https://reactjs.org/docs/getting-started.html#learn-react\">reacts.org</a>, from my Java days I tended to judge the utility of a framework based on the structure, principles, and rationale captured in the Javadocs. Have a good read first, then dive into working on examples. Spring framework and Jetty Servlet container where good examples of this back in ‘00 for me.</p>\n<p>I know some people prefer to dive in, but I need to know why <strong>React</strong> since my Java days.</p>\n<p>At the same time, I’m using ANKI to build a set of flash cards to represent and memorise the core concepts from React.</p>\n<p>And thankful the documentation is good so far. You will need to go deep on the modern concepts of JavaScript, to keep up. So I’ll also build a set of ANKI cards on what I need to absorb with current JavaScript concepts.</p>\n<p>My plan is set up an early morning routine of refreshing from flash cards and learning next steps. I’ll capture these efforts also.</p>\n",
+            "image": "https://marcgalbraith.com/media/posts/5/first_lessons.jpeg",
+            "author": {
+                "name": "Marc Galbraith"
+            },
+            "tags": [
+                   "Coding"
+            ],
+            "date_published": "2022-08-03T21:47:04+10:00",
+            "date_modified": "2022-08-03T21:50:05+10:00"
+        },
+        {
             "id": "https://marcgalbraith.com/teams.html",
             "url": "https://marcgalbraith.com/teams.html",
             "title": "Teams",
