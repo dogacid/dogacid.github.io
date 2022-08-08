@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+# CURRENT DRAFT
 
-You can use the [editor on GitHub](https://github.com/dogacid/digital-cv/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Software Engineer and Organisational Specialist, based in Melbourne, Australia
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Email](mailto://marc@marcgalbraith.com) | [Website](https://marcgalbraith.com) | [LinkedIn](https://www.linkedin.com/in/marcgalbraith/) | [GitHub](https://github.com/dogacid) | [Twitter](https://twitter.com/marcgalbraith)
 
-### Markdown
+## Engineering Experience
+**Professional Services Manager** @ [Lexicon](https://www.lexicon.com.au) (July 2021 - Present)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Manage the People Operations area
+- Build Data systems that help understand headcount, turnover, and engagement
+- ***Technologies used:*** Python (pandas, matplotlib, plotly)
 
-```markdown
-Syntax highlighted code block
+**Client Lead Consultant** @ [Reconceive](https://reconceive.com.au) (Sept 2019 - June 2021)
 
-# Header 1
-## Header 2
-### Header 3
+Consult with operations leaders
+- Analyse large organisational data sets to understand their performance over time
+- Manage website on Google Cloud
+- ***Technologies used:*** Python (pandas, matplotlib), Google Compute Services, HTML, CSS, JavaScript, Microsoft Azure Services
 
-- Bulleted
-- List
+**Principal Consultant** @ [ThoughtWorks](https://www.ThoughtWorks.com) (July 2008 - Sept 2019)
+Role was primarily advising teams and leaders on Agile delivery of software and organisational services
+- ***Part-time use of Technologies used:*** Java, JUnit, Ant, Maven, Electron, JavaScript, Nodejs, Ruby, Python
 
-1. Numbered
-2. List
+**Senior Engineer** @ [tyro](https://www.tyro.com) (June 2005 - June 2008)
+- ***Technologies used:*** Java, Spring, [Jetty](https://en.wikipedia.org/wiki/Jetty_(web_server)), JUnit, Ant, Maven, Fedora Linux, Ruby, MySQL
 
-**Bold** and _Italic_ and `Code` text
+**Team Lead** @ [SSFS](https://www.tyro.com) (2004 - 2005)
+- ***Technologies used:*** Java, Visual Basic, SQL Server
 
-[Link](url) and ![Image](src)
-```
+**Team Lead** @ [Ajilon -> Modis](https://www.modis.com) (2001 - 2004)
+- Implemented [accounting patterns](https://martinfowler.com/apsupp/accounting.pdf) to simulate graded iron movements on mine sites 
+- ***Technologies used:*** Java, JUnit,[Jetty](https://en.wikipedia.org/wiki/Jetty_(web_server)), Ant, Maven, Oracle, Sun Solaris, EJBs, Hibernate
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+**Software Developer** @ [bankwest](https://www.bankwest.com.au) (2001 - 2004)
+- Began in the branches as a banking officer
+- Moved into IT in 
+- Implemented [accounting patterns](https://martinfowler.com/apsupp/accounting.pdf) to simulate graded iron movements on mine sites 
+- ***Technologies used:*** Lotus Notes, Visual Basic, Java, Java Servlets, DB2, JavaScript
 
-### Jekyll Themes
+## Consulting Experience
+**Client Lead Consultant** @ [Reconceive](https://reconceive.com.au) (Sept 2019 - June 2021)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dogacid/digital-cv/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Consult with leaders and teams of various levels and organisations to improve the success of their major change programs in operations. Applying [Systems Leadership](https://www.sldassociation.com), the [Vanguard Method](https://beyondcommandandcontrol.com/welcome-to-vanguard-e-learning/).
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Skills
+**Programming:** Java (Certified), XML, RESTful, HTML, JavaScript, C#, Ruby, SQL, Objective C (iOS)
+
+**Technical Practices:** Pair Programming, Test Driven Development, Behaviour Driven Design, Domain Driven Design, Acceptance Test Driven Development
+
+**Education:** Bachelor of Science (Software Engineering), Edith Cowan University, Mt Lawley, Western Australia.
