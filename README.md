@@ -33,7 +33,7 @@ Role was primarily advising teams and leaders on Agile delivery of software and 
 
 ---
 
-**Team Lead** @ [SSFS](https://www.tyro.com) (2004 - 2005)
+**Team Lead** @ [SSFS -> Aware Super](https://www.tyro.com) (2004 - 2005)
 - ***Technologies used:*** Java, Visual Basic, SQL Server
 
 ---
@@ -44,11 +44,11 @@ Role was primarily advising teams and leaders on Agile delivery of software and 
 
 ---
 
-**Software Developer** @ [bankwest](https://www.bankwest.com.au) (2001 - 2004)
+**Software Developer** @ [bankwest](https://www.bankwest.com.au) (1989 - 2000)
 - Began in the branches as a banking officer
 - Moved into IT in 
 - Implemented [accounting patterns](https://martinfowler.com/apsupp/accounting.pdf) to simulate graded iron movements on mine sites 
-- ***Technologies used:*** Lotus Notes, Visual Basic, Java, Java Servlets, DB2, JavaScript
+- ***Technologies used:*** Lotus Notes, Visual Basic, Java, Java Servlets, DB2, JavaScript, XML
 
 ---
 
