@@ -1,5 +1,3 @@
-# Marc Galbraith
-
 Software Engineer and Organisational Specialist, based in Melbourne, Australia
 
 [Email](mailto://marc@marcgalbraith.com) | [Website](https://marcgalbraith.com) | [LinkedIn](https://www.linkedin.com/in/marcgalbraith/) | [GitHub](https://github.com/dogacid) | [Twitter](https://twitter.com/marcgalbraith)
@@ -28,7 +26,7 @@ Role was primarily advising teams and leaders on Agile delivery of software and 
 
 ---
 
-**Senior Engineer** @ [tyro](https://www.tyro.com) (June 2005 - June 2008)
+**Senior Engineer / Integration Programme Manager** @ [tyro](https://www.tyro.com) (June 2005 - June 2008)
 - ***Technologies used:*** Java, Spring, [Jetty](https://en.wikipedia.org/wiki/Jetty_(web_server)), JUnit, Ant, Maven, Fedora Linux, Ruby, MySQL
 
 ---
@@ -57,6 +55,37 @@ Role was primarily advising teams and leaders on Agile delivery of software and 
 
 Consult with leaders and teams of various levels and organisations to improve the success of their major change programs in operations. Applying [Systems Leadership](https://www.sldassociation.com), the [Vanguard Method](https://beyondcommandandcontrol.com/welcome-to-vanguard-e-learning/).
 
+---
+
+## Management Experience
+
+**Manager - Professional Services** * [LEXICON](https://www.lexicon.com.au) (2021 - 2022)
+
+Manage an operations group that supported the 100+ software consultants working for various clients.
+- Design organisational structure and roles
+- Implement organisational wide changes
+- Judge performance
+- Co-ordinate programmes of work
+- Coach team members
+- Hire new employees
+- Exit employees
+
+
+**Team Lead** @ [Ajilon -> Modis](https://www.modis.com) (2001 - 2004)
+
+The software development effort to build a software system for tracking iron ore movements across multiple BHP mine sites
+- Technical Architecture
+- Co-ordinate allocated work, meet deadlines
+- Coach team members on skills
+
+**Team Leader - Records Management** @ [bankwest](https://www.bankwest.com.au) (1991 - 1992)
+
+Manage a team that searched and reconstructed historical transactions from archived bank records.
+- Judge performance
+- Co-ordinate allocated work
+- Coach team members on skills
+
+---
 
 ## Skills
 **Programming:** Java (Certified), XML, RESTful, HTML, JavaScript, C#, Ruby, SQL, Objective C (iOS)
