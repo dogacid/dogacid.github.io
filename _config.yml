@@ -1,3 +1,4 @@
-remote_theme: aterenin/minima-reboot
+remote_theme: cotes2020/jekyll-theme-chirpy
 title: Marc Galbraith's CV
 description: My Work History
+base_url: /marcgalbraith.com/cv/
