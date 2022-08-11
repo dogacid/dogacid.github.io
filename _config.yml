@@ -1,3 +1,5 @@
-theme: minimal
+theme: minima
 title: Marc Galbraith
 description: My Work History
+url: https://marcgalbraith.com
+base_url: /cv/
