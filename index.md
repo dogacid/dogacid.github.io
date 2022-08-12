@@ -5,6 +5,6 @@ layout: home
 
 Prototype area - I'm experimenting with GitHub Pages directly, so no local build environment.
 
-## [An Engineer's Perspective](/cv/engineering.md)
+## [An Engineer's Perspective](/cv/engineering.html)
 ## A Consultant's Perspective
 ## A Manager / Leader's Perspective
