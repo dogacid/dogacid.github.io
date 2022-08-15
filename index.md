@@ -9,4 +9,5 @@ Prototype area - I'm experimenting with GitHub Pages directly, so no local build
 {% for post in site.posts %}
 #### [{{ post.title }}]({{ post.url }}) - {{ post.date | date_to_string }}
 {{ post.excerpt }}
+
 {% endfor %}
