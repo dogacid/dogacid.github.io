@@ -1,7 +1,7 @@
 ---
 layout: default
-title: CV
-nav_order: 2
+title: Managing Experience
+nav_order: 1
 has_children: false
 ---
 

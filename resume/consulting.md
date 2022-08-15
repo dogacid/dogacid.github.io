@@ -1,7 +1,7 @@
 ---
 layout: default
-title: CV
-nav_order: 2
+title: Consulting Experience
+nav_order: 3
 has_children: false
 ---
 
