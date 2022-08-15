@@ -1,3 +1,10 @@
+---
+layout: default
+title: CV
+nav_order: 2
+has_children: false
+---
+
 ## Management Experience
 
 **Manager - Professional Services** * [LEXICON](https://www.lexicon.com.au) (2021 - 2022)

@@ -1,3 +1,10 @@
+---
+layout: default
+title: CV
+nav_order: 2
+has_children: false
+---
+
 ## Consulting Experience
 
 **Client Lead Consultant** @ [Reconceive](https://reconceive.com.au) (Sept 2019 - June 2021)
