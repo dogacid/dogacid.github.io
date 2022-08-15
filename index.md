@@ -9,7 +9,7 @@ Prototype area - I'm experimenting with GitHub Pages directly, so no local build
 {% for post in site.posts %}
   <div class=“post”>
     <h1 class=“post-title”>
-      <a href=“{{ post.url | absolute_url }}”>
+      <a href=“{{ post.url }}”>
         {{ post.title }}
       </a>
     </h1>
