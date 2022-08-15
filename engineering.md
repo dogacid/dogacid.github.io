@@ -22,70 +22,46 @@ Consult with operations leaders
 
 ---
 
-**Principal Consultant** @ [ThoughtWorks](https://www.ThoughtWorks.com) (July 2008 - Sept 2019)
+**Principal / Lead Consultant** @ [ThoughtWorks](https://www.ThoughtWorks.com) (2008 - 2018)
 Role was primarily advising teams and leaders on Agile delivery of software and organisational services
 - ***Part-time use of Technologies used:*** Java, JUnit, Ant, Maven, Electron, JavaScript, Nodejs, Ruby, Python
 
 ---
 
-**Senior Engineer / Integration Programme Manager** @ [tyro](https://www.tyro.com) (June 2005 - June 2008)
+**Senior Engineer, Architect** @ [tyro](https://www.tyro.com) (2005 - 2008)
+- Lead engineers on difficult software issues
+- Architect the payment engine for data storage, batch processing, large transaction volumes and Web Services
+- Participate in architecture planning and discussions, guide difficult architectural changes
+- Introduce Database evolution methods
+- Interview developers for new roles, mentor junior team members
 - ***Technologies used:*** Java, Spring, [Jetty](https://en.wikipedia.org/wiki/Jetty_(web_server)), JUnit, Ant, Maven, Fedora Linux, Ruby, MySQL
 
 ---
 
 **Team Lead** @ [SSFS -> Aware Super](https://www.tyro.com) (2004 - 2005)
+- Lead development team
+- Participate in architecture planning and discussions
+- Design and develop software
+- Establish development methodologies
 - ***Technologies used:*** Java, Visual Basic, SQL Server
 
 ---
 
 **Team Lead** @ [Ajilon -> Modis](https://www.modis.com) (2001 - 2004)
-- Implemented [accounting patterns](https://martinfowler.com/apsupp/accounting.pdf) to simulate graded iron movements on mine sites 
+- Implemented [accounting patterns](https://martinfowler.com/apsupp/accounting.pdf) to capture graded iron movements on mine sites, long term project
+- Assist clients in adopting enterprise level Java
 - ***Technologies used:*** Java, JUnit,[Jetty](https://en.wikipedia.org/wiki/Jetty_(web_server)), Ant, Maven, Oracle, Sun Solaris, EJBs, Hibernate
 
 ---
 
 **Software Developer** @ [bankwest](https://www.bankwest.com.au) (1989 - 2000)
-- Began in the branches as a banking officer
-- Moved into IT in 
-- Implemented [accounting patterns](https://martinfowler.com/apsupp/accounting.pdf) to simulate graded iron movements on mine sites 
+- Began in the branches as a banking officer in 1989
+- Moved into IT in 1998, after brief period in PC Helpdesk environment
+- Seconded to work as part of IBM's Development team
+- Manage relational data models on DB2.
+- Lead first prototype Java / XML gateway for Lotus Notes, presented to senior management, lead to multi million dollar project.
+- Lead the change in the software development group to use UML.
 - ***Technologies used:*** Lotus Notes, Visual Basic, Java, Java Servlets, DB2, JavaScript, XML
-
----
-
-## Consulting Experience
-**Client Lead Consultant** @ [Reconceive](https://reconceive.com.au) (Sept 2019 - June 2021)
-
-Consult with leaders and teams of various levels and organisations to improve the success of their major change programs in operations. Applying [Systems Leadership](https://www.sldassociation.com), the [Vanguard Method](https://beyondcommandandcontrol.com/welcome-to-vanguard-e-learning/).
-
----
-
-## Management Experience
-
-**Manager - Professional Services** * [LEXICON](https://www.lexicon.com.au) (2021 - 2022)
-
-Manage an operations group that supported the 100+ software consultants working for various clients.
-- Design organisational structure and roles
-- Implement organisational wide changes
-- Judge performance
-- Co-ordinate programmes of work
-- Coach team members
-- Hire new employees
-- Exit employees
-
-
-**Team Lead** @ [Ajilon -> Modis](https://www.modis.com) (2001 - 2004)
-
-The software development effort to build a software system for tracking iron ore movements across multiple BHP mine sites
-- Technical Architecture
-- Co-ordinate allocated work, meet deadlines
-- Coach team members on skills
-
-**Team Leader - Records Management** @ [bankwest](https://www.bankwest.com.au) (1991 - 1992)
-
-Manage a team that searched and reconstructed historical transactions from archived bank records.
-- Judge performance
-- Co-ordinate allocated work
-- Coach team members on skills
 
 ---
 
