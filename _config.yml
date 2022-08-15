@@ -3,3 +3,27 @@ title: Marc Galbraith
 description: My Work History
 color_scheme: dark
 base_url: '/cv'
+
+# Define Jekyll collections
+collections:
+  # Define a collection named "resume", its documents reside in the "_resume" directory
+  resume:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "resume" collection
+    resume:
+      # Give the collection a name
+      name: CV
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      # nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true
