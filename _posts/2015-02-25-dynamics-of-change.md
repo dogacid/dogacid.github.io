@@ -48,3 +48,4 @@ When studying the four forces through the perspective of jobs-to-be-done we lear
 2. Learning anxiety (resistive forces) must be reduced rather than increasing survival anxiety.
 
 I believe these schools of thought overlap and blend nicely so I have created a hybrid diagram displaying the dynamics of change for a person which in turn is a customer.
+![Forces of Change](/assets/ForcesOfChange.jpg)
