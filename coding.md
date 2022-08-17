@@ -6,10 +6,9 @@ nav_order: 2
 
 ## Tag fixes 1.34
 
-{% assign coding = site.tags | where: “coding” %}
-Output: {{ coding }}
 
 {% for tag in site.tags %}
+  {{ tag[0].lstrip }}
   {% if tag[0].lstrip == “coding” %}
 ### Coding posts
     {% for post in tag[1] %}
