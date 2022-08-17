@@ -4,12 +4,13 @@ layout: home
 nav_order: 2
 ---
 
-## Tag fixes 1.35 - using stripe
+## Tag fixes 1.36 - using assign
 
 
 {% for tag in site.tags %}
-  {{ tag[0].strip }}
-  {% if tag[0].strip == “coding” %}
+  {% assign tag_name = tag[0] %}
+  {{ tag_name | stripe }}
+  {% if tag_name == “coding” %}
 ### Coding posts
     {% for post in tag[1] %}
 #### {{ post.date | date_to_string }} - [{{ post.title }}]({{ site.base_url }}{{ post.url }})
