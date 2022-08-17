@@ -4,7 +4,10 @@ layout: home
 nav_order: 2
 ---
 
-## Tag fixes 1.33
+## Tag fixes 1.34
+
+{% assign coding = site.tags | where: “coding” %}
+Output: {{ coding }}
 
 {% for tag in site.tags %}
   {% if tag[0].lstrip == “coding” %}
