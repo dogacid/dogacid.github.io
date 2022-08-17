@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Not The Clothes - Retail Therapy"
-categories: consulting
+tag: consulting
 ---
 
 # Not The Clothes - Retail Therapy

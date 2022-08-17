@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Got your invitation"
-category: consulting 
+tag: consulting 
 ---
 
 # Got your invitation

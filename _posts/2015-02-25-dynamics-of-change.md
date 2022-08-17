@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dynamics of Change"
-categories: organisations, consulting
+tags: organisations consulting
 ---
 
 # Dynamics of Change

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First day back, first lessons."
-Category: coding
+tag: coding
 ---
 
 # First day back, first lessons.
