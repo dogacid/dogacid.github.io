@@ -4,12 +4,12 @@ layout: home
 nav_order: 2
 ---
 
-## Tag fixes 1.36 - using assign
+## Tag fixes 1.37 - using capture
 
 
 {% for tag in site.tags %}
-  {% assign tag_name = tag[0] %}
-  {{ tag_name | stripe }}
+  {% capture tag_name %}{{ tag[0] | stripe }}{% endcapture %}
+  Capture: {{ tag_name }}
   {% if tag_name == “coding” %}
 ### Coding posts
     {% for post in tag[1] %}
