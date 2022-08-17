@@ -5,9 +5,9 @@ nav_order: 2
 ---
 
 {% for tag in site.tags %}
-  {% if tag == “coding” %}
-    ### {{ tag }}
-    {% for post in tag %}
+  {% if tag[0] == “coding” %}
+    ### {{ tag[0] }}
+    {% for post in tag[1] %}
       #### {{ post.date | date_to_string }} - [{{ post.title }}]({{ site.base_url }}{{ post.url }})
     {% endfor %}
   {% endif %} 
