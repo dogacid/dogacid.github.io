@@ -4,6 +4,8 @@ layout: home
 nav_order: 2
 ---
 
+## Tag fixes
+
 {% for tag in site.tags %}
   {% if tag[0] == “coding” %}
     ### {{ tag[0] }}
