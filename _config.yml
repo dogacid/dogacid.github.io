@@ -23,6 +23,8 @@ collections:
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
+    blogs:
+      name: By Interest
     # Reference the "resume" collection
     resume:
       # Give the collection a name
@@ -36,5 +38,3 @@ just_the_docs:
       # Exclude the collection from the search
       # Supports true or false (default)
       # search_exclude: true
-    blogs:
-      name: Blogs 
