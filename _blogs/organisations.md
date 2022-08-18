@@ -1,7 +1,7 @@
 ---
 title: Organisations
 layout: home
-nav_order: 2
+nav_order: 3
 ---
 
 ## Organisation posts
