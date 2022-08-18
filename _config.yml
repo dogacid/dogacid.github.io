@@ -4,6 +4,7 @@ email: marc@marcgalbraith.com
 description: My Work History
 color_scheme: dark
 base_url: '/cv'
+excerpt_separator: ""
 plugins:
   - jekyll-feed
   
