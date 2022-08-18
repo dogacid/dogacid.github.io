@@ -1,6 +1,6 @@
 ---
-title: Organisations
 layout: default
+title: Organisations
 nav_order: 3
 has_children: false
 ---
