@@ -4,12 +4,12 @@ layout: home
 nav_order: 2
 ---
 
-## Tag fixes 1.314 - using to_s
+## Tag fixes 1.314 - using 
 
 {% for tag in site.tags %}
-  To String: {{ tag[0].to_s }}
   Inspect: {{ tag[0] | inspect }}
-  {% if tag[0].to_s contains “consulting” %}
+  If: {{ tag[0] == “consulting” }}
+  {% if tag[0] == “consulting” %}
     Found consulting tag :)
   {% else %}
     Not consulting tag :(
