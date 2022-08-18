@@ -1,0 +1,12 @@
+---
+layout: default
+title: About Me
+nav_order: 4
+has_children: false
+---
+
+## About Marc Galbraith
+
+I like helping organisations be positive and productive places to work. I'm also a self taught software engineer that happened to get a degree on the side. I learnt early in my career that its one thing to write code by yourself, its another world to produce good work in a team. So I did something about it and attempted to understand how you organise and managing people.
+
+
