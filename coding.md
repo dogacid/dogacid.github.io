@@ -4,14 +4,13 @@ layout: home
 nav_order: 2
 ---
 
-## Tag fixes 1.314 - using 
-
+## Tag fixes 1.316 - using 
+{{ assign coding = “coding” }}
 {% for tag in site.tags %}
   Inspect: {{ tag[0] | inspect }}
-  If: {{ tag[0] == “consulting” }}
-  {% if tag[0] == “consulting” %}
-    Found consulting tag :)
+  {% if tag[0] == coding %}
+    Found coding tag :)
   {% else %}
-    Not consulting tag :(
-  {% endif %} 
+    Not coding tag :(
+  {% endif %}
 {% endfor %}
