@@ -1,7 +1,8 @@
 ---
 title: Coding
-layout: home
+layout: default
 nav_order: 1
+has_children: false
 ---
 
 ## Coding posts

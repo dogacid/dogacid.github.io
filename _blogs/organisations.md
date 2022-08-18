@@ -1,7 +1,8 @@
 ---
 title: Organisations
-layout: home
+layout: default
 nav_order: 3
+has_children: false
 ---
 
 ## Organisation posts
