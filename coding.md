@@ -4,13 +4,13 @@ layout: home
 nav_order: 2
 ---
 
-## Tag fixes 1.311 - using case
+## Tag fixes 1.312 - using case
 
 {% for tag in site.tags %}
   Inspect: {{ tag[0] | inspect }}
-  <% if tag[0] == “consulting” %>
+  {% if tag[0] == “consulting” %}
     Found consulting tag :)
-  <% else %>
+  {% else %}
     Not consulting tag :(
-  <% endif %> 
+  {% endif %} 
 {% endfor %}
