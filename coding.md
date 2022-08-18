@@ -4,13 +4,11 @@ layout: home
 nav_order: 2
 ---
 
-## Tag fixes 1.318 - using 
-{%assign coding=“coding”%}
-{%for tag in site.tags%}
-  Inspect: {{tag[0] | inspect}}
-  {%if tag[0]==coding%}
+## Tag fixes 1.319 - using incorrect quote character
+{% for tag in site.tags %}
+  {% if tag[0] == "coding" %}
     Found coding tag :)
-  {%else%}
+  {% else %}
     Not coding tag :(
-  {%endif%}
-{%endfor%}
+  {% endif %}
+{% endfor %}
