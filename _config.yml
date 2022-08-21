@@ -2,7 +2,7 @@ remote_theme: just-the-docs/just-the-docs
 title: Marc Galbraith
 email: marc@marcgalbraith.com
 description: My Work History
-color_scheme: light
+color_scheme: olive
 base_url: '/cv'
 excerpt_separator: ""
 plugins:
