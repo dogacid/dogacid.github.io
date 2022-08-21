@@ -26,7 +26,7 @@ Manage an operations group that supported the 100+ software consultants working 
 - Iterative management of programs and projects of software development work
 - Manage client relations on large and small client engagements
 - Give feedback and manage team member performance on engagements
-- Open and run an office in Perth market
+- Opened and ran an office in Perth market (2010 - 2012)
 
 ---
 
