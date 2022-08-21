@@ -13,7 +13,7 @@ Consult with leaders and teams of various levels and organisations to improve th
 
 --- 
 
-### Principal Consultan @ [ThoughtWorks](http://thoughtworks.com)
+### Principal Consultant @ [ThoughtWorks](http://thoughtworks.com)
 
 #### ENTERPRISE AGILE CONSULTANT (NAB) - MELBOURNE (2019)
 
