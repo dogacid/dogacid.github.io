@@ -30,7 +30,8 @@ Role was primarily advising teams and leaders on Agile delivery of software and 
 ---
 
 **Senior Engineer, Architect** @ [tyro](https://www.tyro.com) (2005 - 2008)
-- Lead engineers on difficult software issues
+- Lead initiaitves on difficult software issues
+- Test Driven, Pair Programming - followed a general extreme programming method
 - Architect the payment engine for data storage, batch processing, large transaction volumes and Web Services
 - Participate in architecture planning and discussions, guide difficult architectural changes
 - Introduce Database evolution methods
