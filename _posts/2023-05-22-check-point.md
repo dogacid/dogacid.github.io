@@ -6,7 +6,7 @@ tag: coding
 
 # Check point
 
-It’s roughly been 9 months since I thought about writing again. This was mainly due a deliberate and heavy on coding and learning another language. I wrote in a previous [post]({% post_url 2022-08-03-first-day-back-first-lessons %}) that **React** was a popular theme at the time from colleagues I’d reached out too. And I am sure it still is. But since then I’ve joined [Global-Roam](https://home.global-roam.com), and at that company you’ll find .NET frameworks and libraries, C# as a key language, and TypeScript lining the source repositories.
+It’s roughly been 9 months since I thought about writing again. This was mainly due a deliberate focus on coding and learning another language. I wrote in a previous [post]({% post_url 2022-08-03-first-day-back-first-lessons %}) that **React** was a popular theme at the time from colleagues I’d reached out too. And I am sure it still is. But since then I’ve joined [Global-Roam](https://home.global-roam.com), and at that company you’ll find .NET frameworks and libraries, C# as a key language, and TypeScript lining the source repositories.
 
 I’ve experienced some negative feedback from other devs around the track, raising statements that some of those things aren’t cool, or not a pure fanciful functional paradise. From my perspective, I don’t care, so what. It’s the hand that has been dealt. I don’t mind, something like C# is a good OO language. And OO is still cutting it. C# feels like a cross between Java and C++.
 
