@@ -1,8 +1,8 @@
-—
+——-
 layout: post
 title:  “Check point.”
 tag: coding
-—
+——-
 
 # Check point
 
