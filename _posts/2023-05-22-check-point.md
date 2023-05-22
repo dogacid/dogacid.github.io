@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Check point.”
+title:	"Check point"
 tag: coding
 ---
 
