@@ -15,7 +15,7 @@ There is a simple test comprising of the following questions we can borrow from 
 
 Answering no to any of these questions, will predictably lead to effectiveness issues. Because mutual interdependency will not be present. If I am on a train with a group of other people, we share a common purpose, get to work, but we do not need each other to get there. We aren’t a team, we don’t need to collaborate for mutual benefit to get to work. We are only a group. 
 
-In an organisation its hard enough to hold a team accountable for their work, its even harder to hold a group. And I've seen many teams as poorly constructed groups. Because it is so hard to hold a group to account, the outcomes are often disasterous.
+In an organisation its hard enough to hold a team accountable for their work, its even harder to hold a group. And I've seen many teams as poorly constructed groups. Because it is so hard to hold a group to account, the outcomes are often disastrous.
 
 A reality I see is that you can only hold an individual accountable for their work. So when you have a team, it makes sense that a leader is that person we can hold to account. But, and only but, that they then have full authority over how the team works. If they have this authority then they can potentially hold each team member to account.
 
