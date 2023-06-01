@@ -10,6 +10,8 @@ excerpt_separator: ""
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+feed:
+  path: /blog/feed.atom
   
 # Define Jekyll collections
 collections:
