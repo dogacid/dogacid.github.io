@@ -3,10 +3,13 @@ Software Engineer and Organisational Specialist, based in Melbourne, Australia
 [Email](mailto://marc@marcgalbraith.com) | [Website](https://marcgalbraith.com) | [LinkedIn](https://www.linkedin.com/in/marcgalbraith/) | [GitHub](https://github.com/dogacid) | [Twitter](https://twitter.com/marcgalbraith)
 
 ## Engineering Experience
+### Current
 
 **Senior Software Developer** @ [Global-Roam](https://global-roam.com) (Sept 2022 - Present)
 
 Develope Front-End and Back-End systems that explores data related National Energy Market [NEM](https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem)
+
+---
 
 **Professional Services Manager** @ [Lexicon](https://www.lexicon.com.au) (July 2021 - Aug 2022)
 
