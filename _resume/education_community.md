@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Other Information
+title: Education and Community
 nav_order: 8
 has_children: false
 ---

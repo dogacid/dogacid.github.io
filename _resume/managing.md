@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Managing Experience
+title: Engineering Leadership
 nav_order: 5
 has_children: false
 ---
@@ -9,51 +9,73 @@ has_children: false
 
 **Manager - Professional Services** * [LEXICON](https://www.lexicon.com.au) (2021 - 2022)
 
-Manage an operations group that supported the 100+ software consultants working for various clients.
-- Design organisational structure, roles, and systems
-- Implement organisational wide changes
-- Grow the organisation from 78 to 137 people
-- Judge performance
-- Co-ordinate programmes of work
-- Coach team members
-- Hire new employees
-- Exit employees
+
+Led the Professional Services operations function supporting 100+ consultants delivering software across multiple client environments.
+
+  - Designed and evolved organisational structures, role definitions and internal operating systems.
+  - Scaled the organisation from 78 to 137 people during a period of sustained growth.
+  - Established clearer performance expectations and feedback mechanisms.
+  - Coached consultants and emerging leaders on delivery, professional development and client engagement.
+  - Oversaw hiring, workforce planning and difficult performance conversations where required.
+  - Balanced commercial delivery pressure with long-term organisational health.
+
+This role deepened my understanding of how engineering organisations scale — and where fragility appears if systems are not designed intentionally.
 
 ---
 
 **Principal Consultant** @ [ThoughtWorks](https://www.thoughtworks.com) (2008 - 2018)
-- Work with executives and senior management on long term change programs in Operations and IT functions
-- Iterative management of programs and projects of software development work
-- Manage client relations on large and small client engagements
-- Give feedback and manage team member performance on engagements
-- Opened and ran an office in Perth market (2010 - 2012)
+
+Worked with executives and senior leaders across banking, telecommunications, retail and government sectors on long-term change initiatives in technology and operations.
+
+  - Led multi-disciplinary delivery teams on complex software programs.
+  - Partnered with CIOs and senior stakeholders on organisational design and delivery performance.
+  - Managed client relationships across small advisory engagements and large-scale transformations.
+  - Provided performance feedback and mentorship to team members across engagements.
+  - Opened and led the Perth office (2010–2012), establishing local client relationships and building delivery capability.
+
+This period shaped my approach to leadership — particularly around aligning delivery systems with strategy and measuring performance beyond activity.
 
 ---
 
-**Integration Program Manager** @ [tyro](https://www.tyro.com) (2007 - 2008)
-Manage a program of work with 30+ vendors integrating with Tyro's EFTPOS product. Includes pre-sales work and work together with Engineering to produce universal solution to customer integrations
+**Integration Program Manager / Engineer** @ [tyro](https://www.tyro.com) (2007 - 2008)
+
+Led a multi-vendor integration program involving 30+ partners integrating with Tyro’s EFTPOS platform.
+
+  - Coordinated engineering, commercial and partner stakeholders.
+  - Balanced pre-sales commitments with delivery feasibility.
+  - Worked closely with engineering to develop a scalable, reusable integration model.
+  - Managed risk and sequencing across distributed external dependencies.
+
+Operating in a payments environment reinforced the importance of reliability, clarity of ownership and disciplined execution.
 
 ---
 
 **Team Lead** @ [SSFS -> Aware Super](https://www.tyro.com) (2004 - 2005)
-- Lead, direct, mentor the development team.
-- Managed and prioritise development work.
-- Assist Project managers on team performance member issues.
-- Negotiated, recruited and managed contracted resources.
-- Interview candidates for potential developer roles.
+
+  - Led and mentored a development team.
+  - Prioritised and coordinated delivery work.
+  - Partnered with project managers on performance and delivery issues.
+  - Recruited and managed contractors.
+  - Interviewed and onboarded new developers.
+
+This was my first formal leadership role and marked the shift from individual contributor to accountable team lead.
 
 ---
 
 **Team Lead** @ [Ajilon -> Modis](https://www.modis.com) (2001 - 2004)
-The software development effort to build a software system for tracking iron ore movements across multiple BHP mine sites
-- Lead teams on technical Architecture
-- Co-ordinate allocated work, meet deadlines
-- Coach team members on skills
+
+  - Led engineering teams building a system to track iron ore movements across multiple BHP mine sites.
+  - Coordinated technical architecture decisions.
+  - Ensured delivery milestones were met.
+  - Coached team members in enterprise Java development.
+  - Balanced client expectations with technical constraints.
 
 ---
 
 **Team Leader - Records Management** @ [bankwest](https://www.bankwest.com.au) (1991 - 1992)
-Manage a team that searched and reconstructed historical transactions from archived bank records.
-- Judge performance
-- Co-ordinate allocated work
-- Coach team members on skills
+
+  - Early leadership role managing a team responsible for reconstructing historical banking records.
+  - Coordinated workload allocation.
+  - Provided coaching and feedback.
+  - Developed early instincts around accountability and service reliability.
+
