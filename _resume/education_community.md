@@ -5,7 +5,7 @@ nav_order: 8
 has_children: false
 ---
 
-## Other Information [Marc Galbraith](https://marcgalbraith.com)
+## Education and Community
 
 #### Education
 - Bachelor of Science (Software Engineering)

@@ -5,7 +5,7 @@ nav_order: 5
 has_children: false
 ---
 
-## Management Experience
+## Engineering Leadership
 
 **Manager - Professional Services** * [LEXICON](https://www.lexicon.com.au) (2021 - 2022)
 

@@ -6,7 +6,22 @@ has_children: false
 ---
 
 ## Engineering Experience
-**Professional Services Manager** @ [Lexicon](https://www.lexicon.com.au) (July 2021 - Present)
+
+**Senior Software Engineer** @ Global-Roam (Oct 2022 - Present)
+- Working within a large-scale, data-intensive national energy market environment (AEMO Data).
+- Designed and maintained distributed data services using C# and .NET.
+- Built and supported frontend components using Vue.js.
+- Developed and optimised SQL Server data models in high-volume environments.
+- Containerised services with Docker.
+- Managed infrastructure via Terraform.
+- Deployed and operated services on Azure.
+- Contributed to reliability, maintainability and operational improvements in a regulated, mission-critical environment.
+- Collaborated closely with cross-functional teams including product, operations and infrastructure.
+- **Technologies used:** C#, .NET, Vue.js, SQL Server, Docker, Terraform, Azure
+
+---
+
+**Professional Services Manager** @ [Lexicon](https://www.lexicon.com.au) (July 2021 - Sept 2022)
 
 Manage the People Operations area
 - Build Data systems that help understand headcount, turnover, and engagement
