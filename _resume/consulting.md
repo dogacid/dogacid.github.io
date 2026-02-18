@@ -30,7 +30,7 @@ Selected engagements:
 
 Supported the Home Lending division in adopting a tribe/squad/chapter model to improve alignment between strategy and delivery.
 
-Australian Bureau of Statistics (2018)
+#### Australian Bureau of Statistics (2018)
 
 Led customer research into digitising key national studies, engaging directly with citizens to inform service design and pilot direction.
 
@@ -72,5 +72,4 @@ Supported Agile delivery initiatives and long-term organisational delivery strat
 
 Co-led a pilot Agile team that delivered a 12-month initiative in 3 months, demonstrating a new delivery model for the organisation.
 
----
 
