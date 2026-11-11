@@ -1,15 +1,30 @@
 remote_theme: just-the-docs/just-the-docs
 title: Marc Galbraith
-tagline: Marc Galbraith | My blog and work history
-url: https://marcgalbraith.com
-email: marc@marcgalbraith.com
-description: My blog and work history
+tagline: Engineering leader and senior software engineer
+url: https://www.marcgalbraith.com
+email: marc.s.galbraith@gmail.com
+description: >-
+  Marc Galbraith is a Melbourne-based engineering leader and senior software
+  engineer with 20+ years across software, organisational design and
+  enterprise transformation.
+
+# Header links (just-the-docs)
+aux_links:
+  LinkedIn: https://www.linkedin.com/in/marcgalbraith/
+  GitHub: https://github.com/dogacid
+  Email: mailto:marc.s.galbraith@gmail.com
+aux_links_new_tab: true
+
+exclude:
+  - README.md
+
 color_scheme: dark
 base_url: '/'
 excerpt_separator: ""
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from
   
 # Define Jekyll collections
 collections:
@@ -17,17 +32,10 @@ collections:
   resume:
     permalink: "/:collection/:path/"
     output: true
-  # Define a collection named "resume", its documents reside in the "_resume" directory 
-  blogs:
-    permalink: "/:collection/:path/"
-    output: true 
- 
 
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
-    blogs:
-      name: By Interest
     # Reference the "resume" collection
     resume:
       # Give the collection a name
