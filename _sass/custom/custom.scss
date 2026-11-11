@@ -1,0 +1,102 @@
+// Single career timeline (_resume/experience.md)
+
+.timeline {
+  position: relative;
+  margin: 2rem 0 0;
+  padding-left: 1.75rem;
+  border-left: 2px solid $border-color;
+}
+
+.tl-item {
+  position: relative;
+  padding-bottom: 2.25rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.75rem - 7px);
+    top: 0.35rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: $body-background-color;
+    border: 2px solid $link-color;
+  }
+
+  &:first-child::before {
+    background: $link-color;
+  }
+}
+
+.tl-when {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $grey-dk-000;
+}
+
+.main-content .tl-role {
+  margin-top: 0.25rem;
+  margin-bottom: 0.4rem;
+}
+
+.tl-tag {
+  display: inline-block;
+  padding: 0.05rem 0.5rem;
+  margin-right: 0.25rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 1.6;
+  vertical-align: middle;
+  border: 1px solid currentColor;
+}
+
+.tl-eng  { color: #7ab8f5; }
+.tl-lead { color: #e3b462; }
+.tl-con  { color: #8fcf9a; }
+
+.tl-tech {
+  font-size: 0.8rem;
+  color: $grey-dk-000;
+}
+
+.tl-item details {
+  margin: 0.75rem 0 1rem;
+
+  summary {
+    cursor: pointer;
+    color: $link-color;
+  }
+}
+
+// Home page intro
+
+.home-intro {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+
+  .home-photo-wrap {
+    flex: 0 0 auto;
+  }
+
+  .home-photo {
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
