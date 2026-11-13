@@ -12,7 +12,11 @@ So I'm changing approach. From now on, a specification has to be something that 
 
 ## The idea: Acceptance Test Driven Development
 
-The approach comes from Dave Farley. His short [ATDD how-to guide](https://continuous-delivery.co.uk/downloads/ATDD%20Guide%2026-03-21.pdf) sums it up. An acceptance test is a "business facing" test that also "supports programming". You write it before any code, and it acts as an *executable specification*: the work is done when the test passes. Developers then use ordinary, finer-grained TDD underneath to get there.
+The approach comes from Dave Farley. What set me on this path was [one of his videos](https://www.youtube.com/watch?v=EkH_uoybj8k), and this passage in particular:
+
+> When a machine writes the code, the human's job is to say precisely what the code should do in a form that can be checked automatically. Not a prompt, not a markdown document, a specification that runs and verifies that the system does what you want it to do. If you don't know what you want it to do yet, you aren't really a programmer. You're just along for the ride.
+
+"Not a markdown document" was aimed squarely at how I'd been working. His short [ATDD how-to guide](https://continuous-delivery.co.uk/downloads/ATDD%20Guide%2026-03-21.pdf) sums it up. An acceptance test is a "business facing" test that also "supports programming". You write it before any code, and it acts as an *executable specification*: the work is done when the test passes. Developers then use ordinary, finer-grained TDD underneath to get there.
 
 The guide lists the properties of a good acceptance test. It:
 
@@ -55,6 +59,8 @@ The ownership lines therefore have to be drawn more carefully than "specs are mi
 - **Drivers and system setup**: the agent's.
 - **The pipeline** checks that a new test fails on `main` before it passes on the branch, which catches a hollowed-out check. It also fails the run if any test was skipped.
 
+Failing first isn't ceremony. A test that fails before any code is written tells the programmer what the goal is: make this pass. That was true when the programmer was a person, and it's just as true now that it's an AI agent. A test that has never failed hasn't told anyone anything. We all learn by failing first.
+
 ## Choosing a language
 
 I considered staying in Rust, which is what the app is written in. I also considered C# with FluentAssertions, which I've enjoyed using before, and Python. I chose Python with pytest, for three reasons:
@@ -96,13 +102,24 @@ There's no URL, selector or button in it. Behind it, a Playwright driver does th
 
 One early lesson: my first version of the balance check tested whether the ledger row *contained* "$200.00". That would have passed for "$1,200.00". Precision has to be designed into the DSL.
 
+## The why comes first
+
+An executable specification captures *what* the system must do. The agent decides *how*. But neither of those makes sense without *why*. Purpose and context come before the what, and they frame the how.
+
+This is task assignment as described in Systems Leadership, which I've [written about before]({% post_url 2023-05-31-thoughts-on-teams %}). In Ian Macdonald, Catherine Burke and Karl Stewart's *Systems Leadership: Creating Positive Organisations*, a well-formed task states its context and purpose, then the quantity and quality expected, and the resources and time available. Within those limits, the person doing the work has discretion over how to do it. That maps closely onto this setup:
+
+- **Context and purpose** are the why. They sit above any single test.
+- **Quantity and quality** are what the executable specification pins down.
+- **Resources and time** are the limits of the assignment.
+- **The how** is the agent's discretion, inside those limits.
+
+So the why has to be written down somewhere, and both the agent and I need to be able to read it. Where it fits in the repository, that's where it should live, next to the specifications that serve it. Some of it sits at a higher level of work, though: a plan or strategy that ties many whats to a single why. That may live elsewhere, but every specification should be able to point back to the purpose it serves. Building software is a system too, and it only works when it sits within a context and has a purpose at each level of work. That's probably a post of its own.
+
 ## Questions I'll come back to
 
 - Does the DSL stay small and domain-shaped, or does it grow into a second application?
 - Is reviewing every DSL change sustainable, or does it become the bottleneck?
-- Do executable specs actually replace my markdown stories, or do I still need a short narrative for the *why*?
 - How often does the agent push back on a spec, and is it right when it does?
-- Does the fail-then-pass check catch real problems, or just add ceremony?
 
 ## References
 
@@ -113,6 +130,8 @@ One early lesson: my first version of the balance check tested whether the ledge
 - Gojko Adzic, *Specification by Example*, Manning, 2011.
 - Kent Beck, *Test-Driven Development: By Example*, Addison-Wesley, 2002.
 - Dan North, [Introducing BDD](https://dannorth.net/introducing-bdd/), 2006.
+- Ian Macdonald, Catherine Burke and Karl Stewart, *Systems Leadership: Creating Positive Organisations*, Gower, 2006 (2nd edition, Routledge, 2018).
 - Martin Fowler, [PageObject](https://martinfowler.com/bliki/PageObject.html).
+- Dave Farley, [the video quoted above](https://www.youtube.com/watch?v=EkH_uoybj8k), Modern Software Engineering on YouTube.
 - [Modern Software Engineering](https://www.youtube.com/@ModernSoftwareEngineeringYT) on YouTube, especially [Requirement Specification v User Stories](https://youtu.be/KP0U3I-f9-Y) and [5 Common Mistakes in User Stories](https://youtu.be/0HMsh459h5c).
 
