@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: page
 title: Overview
-nav_order: 4
-has_children: false
 description: "About Marc Galbraith: an engineering leader and senior software engineer combining technical depth with organisational leadership."
 ---
 

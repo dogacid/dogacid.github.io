@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav" aria-label="Main">
+        {%- assign nav = "Writing|/,About|/resume/overview/,Experience|/resume/experience/,Education|/resume/education_community/" | split: "," -%}
+        {%- for item in nav -%}
+          {%- assign parts = item | split: "|" -%}
+          {%- assign current = false -%}
+          {%- if page.url == parts[1] or page.layout == "post" and parts[1] == "/" -%}{%- assign current = true -%}{%- endif -%}
+          <a href="{{ parts[1] | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ parts[0] }}</a>
+        {%- endfor -%}
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; {{ "now" | date: "%Y" }} {{ site.title }}</span>
+      <span class="footer-links">
+        {%- for link in site.social -%}
+          <a href="{{ link.url }}"{% unless link.url contains "mailto:" %} target="_blank" rel="noopener"{% endunless %}>{{ link.name }}</a>
+        {%- endfor -%}
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </span>
+    </footer>
+  </div>
+</body>
+</html>

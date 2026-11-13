@@ -3,8 +3,6 @@ layout: post
 title:  "Perspectives CV"
 ---
 
-# Perspectives CV
-
 A little detour from researching the engineering world this week to focus on building my CV. A question. Do I create an engineering focused CV?
 
 The problem with just that view is it doesn't explain what has happened between the gaps over the last 33 years of my working career. I am going to experiment with what I am calling a perspectives CV in my GitHub Repository.

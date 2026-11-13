@@ -1,4 +1,3 @@
-remote_theme: just-the-docs/just-the-docs
 title: Marc Galbraith
 tagline: Engineering leader and senior software engineer
 url: https://www.marcgalbraith.com
@@ -8,17 +7,11 @@ description: >-
   engineer with 20+ years across software, organisational design and
   enterprise transformation.
 
-# Header links (just-the-docs)
-aux_links:
-  LinkedIn: https://www.linkedin.com/in/marcgalbraith/
-  GitHub: https://github.com/dogacid
-  Email: mailto:marc.s.galbraith@gmail.com
-aux_links_new_tab: true
-
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
 
-color_scheme: dark
 base_url: '/'
 excerpt_separator: ""
 plugins:
@@ -33,19 +26,11 @@ collections:
     permalink: "/:collection/:path/"
     output: true
 
-just_the_docs:
-  # Define which collections are used in just-the-docs
-  collections:
-    # Reference the "resume" collection
-    resume:
-      # Give the collection a name
-      name: CV
-      # Exclude the collection from the navigation
-      # Supports true or false (default)
-      # nav_exclude: true
-      # Fold the collection in the navigation
-      # Supports true or false (default)
-      # nav_fold: true
-      # Exclude the collection from the search
-      # Supports true or false (default)
-      # search_exclude: true
+# Footer links
+social:
+  - { name: Email, url: "mailto:marc.s.galbraith@gmail.com" }
+  - { name: LinkedIn, url: "https://www.linkedin.com/in/marcgalbraith/" }
+  - { name: GitHub, url: "https://github.com/dogacid" }
+
+sass:
+  style: compressed

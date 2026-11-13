@@ -1,0 +1,334 @@
+---
+---
+
+// Minimal single-column layout. Light by default, dark when the OS asks for it.
+
+:root {
+  --bg: #ffffff;
+  --fg: #1f2328;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --link: #1f2328;
+  --accent: #2563eb;
+  --code-bg: #f3f4f6;
+  --tag-eng: #1d6fc2;
+  --tag-lead: #a36a00;
+  --tag-con: #2f7d3e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111214;
+    --fg: #e6e6e6;
+    --muted: #9ca3af;
+    --border: #2b2d31;
+    --link: #e6e6e6;
+    --accent: #7ab8f5;
+    --code-bg: #1c1e22;
+    --tag-eng: #7ab8f5;
+    --tag-lead: #e3b462;
+    --tag-con: #8fcf9a;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+.wrap {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main { flex: 1; }
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+}
+a:hover { text-decoration-color: currentColor; }
+
+img { max-width: 100%; height: auto; }
+
+h1, h2, h3, h4 {
+  line-height: 1.25;
+  font-weight: 650;
+  margin: 2rem 0 0.75rem;
+}
+h1 { font-size: 1.75rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.1rem; }
+h4 { font-size: 1rem; }
+
+// Header
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding: 2rem 0 1rem;
+}
+
+.site-name {
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.1rem;
+  font-size: 0.95rem;
+
+  a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+  a:hover, a[aria-current="page"] { color: var(--fg); }
+}
+
+// Footer
+
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  margin-top: 4rem;
+  padding: 1.5rem 0 2.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.875rem;
+  color: var(--muted);
+
+  a { color: var(--muted); text-decoration: none; }
+  a:hover { color: var(--fg); }
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+}
+
+// Home
+
+.intro {
+  margin: 1.5rem 0 3rem;
+
+  h1 { margin: 1.25rem 0 0.25rem; }
+}
+
+.intro-photo {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro-tagline {
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+}
+
+.writing h2 {
+  margin-bottom: 0.5rem;
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li { border-bottom: 1px solid var(--border); }
+  li:last-child { border-bottom: 0; }
+
+  a {
+    display: block;
+    padding: 0.85rem 0;
+    text-decoration: none;
+  }
+
+  a:hover .post-list-title {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+
+  .post-list-title {
+    display: block;
+    font-weight: 550;
+  }
+
+  time {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--muted);
+  }
+}
+
+// Posts
+
+.post-header {
+  margin: 1.5rem 0 2rem;
+
+  h1 { margin: 0 0 0.35rem; }
+}
+
+.post-date {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.post-back {
+  margin-top: 3rem;
+  font-size: 0.95rem;
+}
+
+// Prose
+
+.page { margin-top: 1.5rem; }
+
+.prose {
+  overflow-wrap: break-word;
+
+  a { text-decoration-color: var(--muted); }
+  a:hover { text-decoration-color: currentColor; }
+
+  > :first-child { margin-top: 0; }
+
+  blockquote {
+    margin: 1.5rem 0;
+    padding: 0 0 0 1rem;
+    border-left: 3px solid var(--border);
+    color: var(--muted);
+  }
+
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.875em;
+    background: var(--code-bg);
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+  }
+
+  pre {
+    overflow-x: auto;
+    padding: 1rem;
+    background: var(--code-bg);
+    border-radius: 6px;
+    line-height: 1.45;
+
+    code { background: none; padding: 0; }
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+  }
+  th, td {
+    padding: 0.4rem 0.75rem;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 2.5rem 0;
+  }
+
+  ul, ol { padding-left: 1.4rem; }
+  li + li { margin-top: 0.25rem; }
+}
+
+// Career timeline (_resume/experience.md)
+
+.timeline {
+  position: relative;
+  margin: 2rem 0 0;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--border);
+}
+
+.tl-item {
+  position: relative;
+  padding-bottom: 2.25rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.5rem - 7px);
+    top: 0.35rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 2px solid var(--accent);
+  }
+
+  &:first-child::before { background: var(--accent); }
+}
+
+.tl-when {
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.prose .tl-role {
+  margin-top: 0.25rem;
+  margin-bottom: 0.4rem;
+}
+
+.tl-tag {
+  display: inline-block;
+  padding: 0.05rem 0.5rem;
+  margin: 0 0.25rem 0.25rem 0;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 1.6;
+  vertical-align: middle;
+  border: 1px solid currentColor;
+}
+
+.tl-eng  { color: var(--tag-eng); }
+.tl-lead { color: var(--tag-lead); }
+.tl-con  { color: var(--tag-con); }
+
+.tl-tech {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.tl-item details {
+  margin: 0.75rem 0 1rem;
+
+  summary {
+    cursor: pointer;
+    color: var(--accent);
+  }
+}

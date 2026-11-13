@@ -4,8 +4,6 @@ title: "Got your invitation"
 tag: consulting 
 ---
 
-# Got your invitation
-
 In the consulting world, on a regular basis, I see what could be best described as lecturing. In particular my observations are that there’s a stronger presence of this behaviour in the technology sector; a silicon valley obsession. Organisations hire consultants for their expertise, they want help from them and not a lecture. As a consultant I'll admit in my past I've fallen into this trap. And I put this down to bad theory.
 
 In the day to day of getting things done There are those times when you happen to trip into an argument over a point, process, strategy, technique or idea. You don't mean to come across this way, it's just that you feel like you have something to bring to the table and don't want to miss the opportunity. A feeling of confidence, quite rightly so, you think you're the expert, been there before, you know what to do.

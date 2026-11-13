@@ -4,8 +4,6 @@ title:	"Thoughts on Teams"
 tag: organisations
 ---
 
-# Thoughts on Teams
-
 Teams are popular in today’s organisations. Often generalised as: functional, cross-functional, self-managed, self-organised, virtual, troubleshooting and so on. But will any of them be an effective team?
 
 There is a simple test comprising of the following questions we can borrow from Systems Leadership:

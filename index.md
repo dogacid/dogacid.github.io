@@ -1,7 +1,6 @@
 ---
 title: Home
-layout: home
-nav_order: 1
+layout: default
 redirect_from:
   - /blogs/coding/
   - /blogs/consulting/
@@ -9,26 +8,26 @@ redirect_from:
 description: Marc Galbraith is an engineering leader and senior software engineer in Melbourne, writing about software, organisations and change.
 ---
 
-<div class="home-intro" markdown="1">
-<div class="home-photo-wrap"><img class="home-photo" src="{{ '/assets/marc_2021_mono.jpg' | relative_url }}" alt="Portrait of Marc Galbraith" width="160" height="160"></div>
+<section class="intro">
+  <img class="intro-photo" src="{{ '/assets/marc_2021_mono.jpg' | relative_url }}" alt="Portrait of Marc Galbraith" width="96" height="96">
+  <h1>Marc Galbraith</h1>
+  <p class="intro-tagline">Engineering leader and senior software engineer · Melbourne, Australia</p>
+  <div class="prose">
+    <p>I've spent more than 20 years working where software, organisations and change meet. My work has taken me from developer to architect, consultant and engineering manager, and back to hands-on engineering. Today I build data services for the Australian energy market.</p>
+    <p>More <a href="{% link _resume/overview.md %}">about me</a>, or see my <a href="{% link _resume/experience.md %}">experience</a>.</p>
+  </div>
+</section>
 
-<div markdown="1">
-# Marc Galbraith
-{: .fs-8 .mb-2 }
-
-Engineering leader and senior software engineer · Melbourne, Australia
-{: .fs-5 .fw-300 .mb-3 }
-
-I've spent more than 20 years working where software, organisations and change meet. My work has taken me from developer to architect, consultant and engineering manager, and back to hands-on engineering. Today I build data services for the Australian energy market.
-
-[About me]({% link _resume/overview.md %}){: .btn .btn-primary .mr-2 }
-[Experience]({% link _resume/experience.md %}){: .btn }
-</div>
-</div>
-
-## Writing
-
-{% for post in site.posts %}
-#### {{ post.date | date_to_string }} - [{{ post.title }}]({{ post.url | relative_url }})
-
-{% endfor %}
+<section class="writing">
+  <h2>Writing</h2>
+  <ul class="post-list">
+    {%- for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <span class="post-list-title">{{ post.title }}</span>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>

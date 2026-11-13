@@ -4,8 +4,6 @@ title:  "Dynamics of Change"
 tags: organisations consulting
 ---
 
-# Dynamics of Change
-
 Edgar H. Schein in his book Organizational Culture and Leadership, discusses the general stages of change within human systems such as groups and organisations, drawing from his consulting and research. Kurt Lewin wrote an article back in 1947 and concluded that for people and group performance to change there appears to be three stages that they go through to establish new levels of performance:
 
 1. Unfreezing the current level.

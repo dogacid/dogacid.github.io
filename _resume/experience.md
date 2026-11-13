@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: page
 title: Experience
-nav_order: 5
-has_children: false
 description: "Marc Galbraith's career timeline across software engineering, engineering leadership and consulting, from 1989 to today."
 redirect_from:
   - /resume/engineering/
