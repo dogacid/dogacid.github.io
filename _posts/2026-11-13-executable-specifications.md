@@ -4,8 +4,6 @@ title:	"Executable Specifications, and Who Gets to Change Them"
 tag: coding
 ---
 
-# Executable Specifications, and Who Gets to Change Them
-
 I've been building practara, a practice-management and bookkeeping app, with an AI coding agent doing most of the typing. That works well. Over the past year, though, my specifications have piled up as markdown: stories, analysis files, prompt files, acceptance criteria written as bullet points. Markdown is easy to write and easy to drift from. A bullet point says nothing when the code stops doing what it describes.
 
 So I'm changing approach. From now on, a specification has to be something that runs. This post is a snapshot of my thinking at the start, so I can come back to it and report what actually happened.

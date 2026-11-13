@@ -37,4 +37,4 @@ More on the site: [About](https://www.marcgalbraith.com/resume/overview/) · [Ex
 
 ## This Repository
 
-This repository contains the source for my personal site, built with Jekyll and the [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme and hosted on GitHub Pages.
+This repository contains the source for my personal site, built with Jekyll using a few hand-written layouts (`_layouts/`, `assets/css/main.scss`) and hosted on GitHub Pages.

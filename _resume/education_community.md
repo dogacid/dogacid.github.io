@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: page
 title: Education and Community
-nav_order: 6
-has_children: false
 description: "Marc Galbraith's education, certifications, conference talks and community work."
 ---
 

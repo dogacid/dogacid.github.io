@@ -4,8 +4,6 @@ title:  "First day back, first lessons."
 tag: coding
 ---
 
-# First day back, first lessons.
-
 I've reached out to some colleagues I know that are still coding. Why I did this? Obtain the quickest possible insight into what skills are considered rare and valuable. There are stacks of sites that talk about the top ten this and that, I think they are probably looking for clicks.
 
 The common thread in this research was **React**.
