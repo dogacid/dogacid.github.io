@@ -26,9 +26,11 @@ Strong engineering cultures are built deliberately.
 
 Technical quality and organisational health are deeply connected.
 
-You cannot improve what you cannot see — measurement matters.
+You cannot improve what you cannot see — feedback and measurement matters.
 
 Most persistent problems are systemic, not personal.
+
+Engineering management is shaping the conditions in which good engineering becomes possible.
 
 ### Engineering
 
